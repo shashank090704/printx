@@ -12,7 +12,7 @@ const STEPS: { status: OrderStatus; label: string; desc: string }[] = [
   { status: "completed",      label: "Ready",      desc: "Your printout is ready to collect" },
 ];
 
-const STATUS_ORDER: OrderStatus[] = ["pending_payment", "paid", "printing", "completed"];
+const     STATUS_ORDER: OrderStatus[] = ["pending_payment", "paid", "printing", "completed"];
 
 interface Props {
   order: Order;
