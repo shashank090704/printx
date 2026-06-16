@@ -3,7 +3,7 @@
 
 "use client";
 
-import type { PaymentMode } from "@/lib/types";
+import type  { PaymentMode } from "@/lib/types";
 
 interface Props {
   mode: PaymentMode;
