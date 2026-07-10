@@ -9,7 +9,7 @@ const BW_PER_PAGE = 1;    // ₹1 per B&W page
 const  COLOR_PER_PAGE = 6; // ₹6 per colour page
 
 interface PriceLine {
-  label: string;
+  label:   string;
   amount: number;
 }
 
