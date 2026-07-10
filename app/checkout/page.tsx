@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import PaymentToggle from "@/components/PaymentToggle";
 import PriceCalc from "@/components/PriceCalc";
-import { api } from "@/lib/api";
+import { api }  from "@/lib/api";
 import type { PrintConfig, PaymentMode } from "@/lib/types";
 
 declare global {
