@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata:  Metadata = {
   title: "SmartPrint — Print shop",
   description: "Upload, configure, and track your print orders online.",
   themeColor: "#0f0e0c",
